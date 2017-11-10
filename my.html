@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="always">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>红韵-我的</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/my.css">
+</head>
+<body>
+<!-- name -->
+<div class="name" onclick="javascript:leave('message.html');">
+    <div class="logo"></div>
+    <div class="mes">
+        <header>十里浅秋</header>
+        <img src="img/my/VIOP@1x.png">
+    </div>
+</div>
+<!-- order -->
+<div class="order">
+    <img src="img/my/1@1x.png" alt="" style="margin-right: .1rem;margin-bottom: .1rem">
+    <img src="img/my/2@1x.png" alt="" style="margin-bottom: .1rem">
+    <img src="img/my/5@1x.png" alt="" class="special">
+    <img src="img/my/3@1x.png" alt="" style="margin-right: .1rem">
+    <img src="img/my/4@1x.png" alt="">
+    <div class="clear"></div>
+</div>
+<!-- my -->
+<ul class="my">
+    <li class="member" onclick="javascript:leave('member.html');">会员中心</li>
+    <li class="custom" onclick="javascript:leave('custom.html');">我的定制</li>
+    <li class="collect" onclick="javascript:leave('collect1.html');">我的收藏</li>
+    <li class="sale">我的售卖</li>
+    <li class="auction">我的拍卖</li>
+    <li class="favourable">优惠券</li>
+    <li class="divide">信用卡分期</li>
+    <li class="service" onclick="javascript:leave('service.html');">红韵客服</li>
+    <li class="view">意见反馈</li>
+    <li class="setting">设置</li>
+</ul>
+<!-- fixedmenu -->
+<div class="fixedmenu">
+    <ul>
+        <li class="large marginr"><a href="index.html"><img src="img/index/home.png" alt="" style="margin-left: .4rem"></a></li>
+        <li class="marginr"><a href="classify.html"><img src="img/index/classify.png" alt=""></a></li>
+        <li class="marginr"><a href="custom.html"><img src="img/index/custom.png" alt=""></a></li>
+        <li class="marginr"><a href="bag.html"><img src="img/index/shopping-bag.png" alt=""></a></li>
+        <li class="large"><a href="my.html"><img src="img/index/my1.png" alt=""></a></li>
+    </ul>
+</div>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/swiper-3.4.2.jquery.min.js"></script>
+<script src="js/all.js"></script>
+<script>
+	$(function(){
+		window.localStorage.my=1;
+	})
+</script>
+</html>

@@ -1,0 +1,26 @@
+{
+  "message.html": {
+    "href": "message.html",
+    "resources": [
+      "js/jquery-3.2.1.js",
+      "js/swiper-3.4.2.jquery.min.js",
+      "js/all.js",
+      "css/normalize.css",
+      "css/swiper-3.4.2.min.css",
+      "css/message.css",
+      "img/custom/arrow.png",
+      "img/index/menu.png",
+      "img/index/search.png",
+      "img/index/message.png",
+      "img/index/background.png",
+      "img/index/settlement.png",
+      "img/index/night.png",
+      "img/index/code.png",
+      "img/message/bg.png",
+      "img/message/change.png",
+      "img/message/VIOP@1x.png"
+    ],
+    "refer": [],
+    "priority": 8
+  }
+}

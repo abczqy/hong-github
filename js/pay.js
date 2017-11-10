@@ -1,0 +1,10 @@
+$(function(){
+	window.localStorage.my=0;
+    $(".collect").on("click",function(){
+        if($(".collect-menu").css("display")=="none"){
+            $(".collect-menu").css("display","block");
+        }else{
+            $(".collect-menu").css("display","none");
+        }
+    })
+});

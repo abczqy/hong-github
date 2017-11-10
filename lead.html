@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>红韵-登录/注册</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <style type="text/css">
+        a,input{
+            -webkit-tap-highlight-color:rgba(255,0,0,0);
+        }
+        body{
+            width:100%;
+        }
+        .main{
+            width:100%;
+            height:100%;
+            position: relative;
+            font-size: 0;
+        }
+        .main img{
+            width:100%;
+            height:100%;
+        }
+        .lead{
+            display: none;
+        }
+        .main a{
+            display: none;
+            position: absolute;
+            right:.6rem;
+            top:.6rem;
+            width:1.06rem;
+            height:.46rem;
+            padding-right: .1rem;
+            background: url(img/lead/go.png)no-repeat center;
+            background-size: 100% 100%;
+        }
+        a{
+            font-size: .3rem;
+            text-align: right;
+            line-height: .45rem;
+            text-decoration: none;
+            color:#333;
+        }
+    </style>
+</head>
+<body>
+<div id="allmap"></div>
+<!-- main -->
+<div class="main">
+    <img src="img/index/start.png" alt="" class="start">
+    <img src="" alt="" class="lead">
+    <a href="index.html">3s</a>
+</div>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=dfGoYEGXpGY4UPYZg0sgocWqwXjSdDZ2"></script>
+<script src="js/all.js"></script>
+<script type="text/javascript" src="js/lead.js"></script>
+</html>

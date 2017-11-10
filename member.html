@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>红韵-会员等级</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/member.css">
+</head>
+<body style="background-size: 100% 30%;">
+<!-- back -->
+<div class="back"><a href="javascript:;" onclick="javascript:history.back(-1);"></a></div>
+<!-- title -->
+<div class="title">
+    <header style="margin-bottom: .18rem;">会员等级</header>
+    <img src="img/member/logo.png" alt="">
+    <p>近一年消费金额 <br><span>￥ 40000</span></p>
+    <div class="clear"></div>
+</div>
+<!-- cont -->
+<div class="cont" style="margin-top: .9rem;">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/member/class.png" alt=""><button class="right"></button></div>
+            <div class="swiper-slide"><button class="left"></button><img src="img/member/class.png" alt=""><button class="right"></button></div>
+            <div class="swiper-slide"><button class="left"></button><img src="img/member/class.png" alt=""><button class="right"></button></div>
+            <div class="swiper-slide"><button class="left"></button><img src="img/member/class.png" alt=""></div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/swiper-3.4.2.jquery.min.js"></script>
+<script src="js/all.js"></script>
+<script>
+	$(function(){
+		var myswiper=new Swiper(".swiper-container",{
+        	speed:400,
+        	followFinger : false
+    	})
+	});
+</script>
+</html>
